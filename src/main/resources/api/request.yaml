@@ -1,0 +1,14 @@
+headers:
+  pageSize:
+    name: pageSize
+    in: header
+    description: Size of page
+    schema:
+      type: integer
+      minimum: 0
+  restartRowId:
+    name: restartRowId
+    in: header
+    description: Restart row ID for pagination
+    schema:
+      type: string
